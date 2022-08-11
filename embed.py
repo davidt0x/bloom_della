@@ -3,7 +3,7 @@ import time
 import torch
 
 from pprint import pprint
-from transformers import AutoTokenizer, pipeline
+from transformers import AutoTokenizer, pipeline, AutoModelForCausalLM
 
 input_file = "quotes_small.jsonl"
 
@@ -13,22 +13,30 @@ with open(input_file, "r") as f:
     # If the prompts are stored as JSONL, extract the text.
     if input_file.endswith(".jsonl"):
         import json
+
         prompts = [json.loads(p)["text"] for p in prompts]
 
-model_path = '/scratch/gpfs/DATASETS/bloom_model_1.3/bloom')
+max_gpu_mem = int(30e9)
+max_cpu_mem = int(550e9)
+max_memory = {
+    0: max_gpu_mem,
+    1: max_gpu_mem,
+    "cpu": max_cpu_mem
+}
+
+model_path = "/scratch/gpfs/DATASETS/bloom_model_1.3/bloom"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
-pipe = pipeline("feature-extraction", model=model_path, device_map="auto", offload_folder='offload', torch_dtype=torch.bfloat16)
+model = AutoModelForCausalLM.from_pretrained(
+        model_path, device_map="auto", offload_folder="offload", torch_dtype=torch.bfloat16, max_memory=max_memory,
+)
 
 print("Device Map:")
 pprint(model.hf_device_map)
 
-def embed(prompt: str):
-    t0 = time.time()
-    inputs = tokenizer(prompt, return_tensors="pt")
-    ouptut = pipe(inputs["input_ids"].to(0))
-    print(f"Elapsed Time = {time.time()-t0}")
-    return output
-
-
 for prompt in prompts:
-    embed(prompt)
+    t0 = time.time()
+    inputs = tokenizer(prompt, return_tensors="pt", padding='max_length', max_length=1024)
+    input = inputs["input_ids"].cuda()
+    with torch.no_grad():
+        output = model(input)
+    print(f"Prompt Size = {input.size()}, Elapsed Time = {time.time()-t0}")
