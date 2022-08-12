@@ -1,0 +1,180 @@
+Device Map:
+{'lm_head': 0,
+ 'transformer.h.0': 0,
+ 'transformer.h.1': 0,
+ 'transformer.h.10': 'cpu',
+ 'transformer.h.11': 'cpu',
+ 'transformer.h.12': 'cpu',
+ 'transformer.h.13': 'cpu',
+ 'transformer.h.14': 'cpu',
+ 'transformer.h.15': 'cpu',
+ 'transformer.h.16': 'cpu',
+ 'transformer.h.17': 'cpu',
+ 'transformer.h.18': 'cpu',
+ 'transformer.h.19': 'cpu',
+ 'transformer.h.2': 0,
+ 'transformer.h.20': 'cpu',
+ 'transformer.h.21': 'cpu',
+ 'transformer.h.22': 'cpu',
+ 'transformer.h.23': 'cpu',
+ 'transformer.h.24': 'cpu',
+ 'transformer.h.25': 'cpu',
+ 'transformer.h.26': 'cpu',
+ 'transformer.h.27': 'cpu',
+ 'transformer.h.28': 'cpu',
+ 'transformer.h.29': 'cpu',
+ 'transformer.h.3': 1,
+ 'transformer.h.30': 'cpu',
+ 'transformer.h.31': 'cpu',
+ 'transformer.h.32': 'cpu',
+ 'transformer.h.33': 'cpu',
+ 'transformer.h.34': 'cpu',
+ 'transformer.h.35': 'cpu',
+ 'transformer.h.36': 'cpu',
+ 'transformer.h.37': 'cpu',
+ 'transformer.h.38': 'cpu',
+ 'transformer.h.39': 'cpu',
+ 'transformer.h.4': 1,
+ 'transformer.h.40': 'cpu',
+ 'transformer.h.41': 'cpu',
+ 'transformer.h.42': 'cpu',
+ 'transformer.h.43': 'cpu',
+ 'transformer.h.44': 'cpu',
+ 'transformer.h.45': 'cpu',
+ 'transformer.h.46': 'cpu',
+ 'transformer.h.47': 'cpu',
+ 'transformer.h.48': 'cpu',
+ 'transformer.h.49': 'cpu',
+ 'transformer.h.5': 1,
+ 'transformer.h.50': 'cpu',
+ 'transformer.h.51': 'cpu',
+ 'transformer.h.52': 'cpu',
+ 'transformer.h.53': 'cpu',
+ 'transformer.h.54': 'cpu',
+ 'transformer.h.55': 'cpu',
+ 'transformer.h.56': 'cpu',
+ 'transformer.h.57': 'cpu',
+ 'transformer.h.58': 'cpu',
+ 'transformer.h.59': 'cpu',
+ 'transformer.h.6': 1,
+ 'transformer.h.60': 'cpu',
+ 'transformer.h.61': 'cpu',
+ 'transformer.h.62': 'cpu',
+ 'transformer.h.63': 'cpu',
+ 'transformer.h.64': 'cpu',
+ 'transformer.h.65': 'cpu',
+ 'transformer.h.66': 'cpu',
+ 'transformer.h.67': 'cpu',
+ 'transformer.h.68': 'cpu',
+ 'transformer.h.69': 'cpu',
+ 'transformer.h.7': 1,
+ 'transformer.h.8': 1,
+ 'transformer.h.9': 'cpu',
+ 'transformer.ln_f': 'cpu',
+ 'transformer.word_embeddings': 0,
+ 'transformer.word_embeddings_layernorm': 0}
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.2744619846344
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.03827214241028
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.06464147567749
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.051670789718628
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.124036073684692
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.044103622436523
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.313108205795288
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.36155343055725
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.366875171661377
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.09331774711609
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.064406871795654
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.12191390991211
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.00342321395874
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.98979377746582
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.969839572906494
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.99435043334961
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.038301944732666
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.051536560058594
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.010409832000732
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.991520404815674
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.036967992782593
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.057446241378784
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.991740703582764
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.003942012786865
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.031021118164062
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.038027048110962
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.972445726394653
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.946181535720825
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.958401203155518
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.962647676467896
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.990283012390137
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.008898496627808
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.02009129524231
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.989452600479126
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.977941513061523
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.032063961029053
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.02099585533142
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.102152109146118
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.0788836479187
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.033300399780273
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.046130180358887
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.06920027732849
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.09030795097351
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.115623712539673
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.099687099456787
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.382808685302734
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.365803241729736
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.344773292541504
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.338504314422607
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.355040788650513
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.421168565750122
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.351102352142334
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.335821390151978
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.320714950561523
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.304279565811157
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.371013402938843
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.373986959457397
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.354899883270264
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.327410459518433
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.35138487815857
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.371078968048096
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.327227115631104
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.33428168296814
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.286069869995117
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 24.345478057861328
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.30442523956299
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.307587146759033
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.13188910484314
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.093093156814575
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.130873680114746
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.11922597885132
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.131833791732788
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.279340505599976
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.107398986816406
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.227356910705566
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.07827925682068
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.09273052215576
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.05456233024597
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.061546325683594
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.07657814025879
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.091716289520264
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.087502002716064
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.067495107650757
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.05753993988037
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.077255964279175
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.077767610549927
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.06352138519287
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.031219482421875
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.063705921173096
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.060078620910645
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.09337282180786
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.025281190872192
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 23.07889199256897
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.461610078811646
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.48814582824707
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.496554613113403
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.446828603744507
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.490050792694092
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.460309505462646
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.472283601760864
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.490478515625
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.430964469909668
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.397099494934082
+Prompt Size = torch.Size([1, 1024]), Elapsed Time = 22.367541790008545
+slurmstepd: error: *** JOB 41882963 ON della-i14g1 CANCELLED AT 2022-08-11T21:24:51 ***

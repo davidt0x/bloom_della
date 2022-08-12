@@ -5,7 +5,7 @@ import torch
 from pprint import pprint
 from transformers import AutoTokenizer, pipeline, AutoModelForCausalLM
 
-input_file = "quotes_small.jsonl"
+input_file = "quotes_medium.jsonl"
 
 with open(input_file, "r") as f:
     prompts = f.readlines()
