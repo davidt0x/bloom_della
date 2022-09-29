@@ -16,11 +16,13 @@ with open(input_file, "r") as f:
 
         prompts = [json.loads(p)["text"] for p in prompts]
 
-max_gpu_mem = int(30e9)
+max_gpu_mem = int(60e9)
 max_cpu_mem = int(550e9)
 max_memory = {
     0: max_gpu_mem,
     1: max_gpu_mem,
+    2: max_gpu_mem,
+    3: max_gpu_mem,
     "cpu": max_cpu_mem
 }
 
